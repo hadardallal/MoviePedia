@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">סרט פדיה</string>
+    <string name="add_fab">להוסיף נפלא</string>
+    <string name="title_add_item_fragment">הוסף פריט סרט</string>
+    <string name="title_edit_item_fragment">ערוך פריט סרט</string>
+    <string name="title_item_detail_fragment">פירוט פריט הסרט</string>
+    <string name="title_favourite_item_fragment">פריטי סרטים אהובים</string>
+    <string name="delete_movie_title_heading">מחק סרט</string>
+    <string name="delete_movie_warning_message">האם אתה בטוח שברצונך למחוק את הסרט הזה?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="add_new_movie_item">הוסף פריט סרט חדש</string>
+    <string name="title">כותרת</string>
+    <string name="description">תיאור</string>
+    <string name="genre">ז\'ָאנר</string>
+    <string name="release_date">תאריך הוצאה</string>
+    <string name="rating">דֵרוּג</string>
+    <string name="save">להציל</string>
+    <string name="update">עדכון</string>
+    <string name="empty_input_warning_message">אנא מלא את כל השדות</string>
+    <string name="added_movie_message">פריט סרט חדש נוסף בהצלחה</string>
+    <string name="updated_movie_message">פריט הסרט עודכן בהצלחה</string>
+    <string name="favourite_added_message">פריט נוסף למועדפים</string>
+    <string name="favourite_removed_message">הפריט הוסר מהמועדף</string>
+    <string name="favourite">מועדפים</string>
+    <string name="item_deleted_message">פריט הסרט נמחק בהצלחה</string>
+    <string name="upload_movie_image_text">העלה תמונת סרט</string>
+    <string name="permission_alert_message">התראת רשות!</string>
+    <string name="camera_permission_denied_message">עבור להגדרות ואפשר הרשאת מצלמה לשימוש בתכונה זו</string>
+    <string name="location_permission_denied_message">עבור להגדרות והפעל הרשאת מיקום כדי להשתמש בתכונה זו</string>
+    <string name="setting">הגדרה</string>
+    <string name="cancel">לְבַטֵל</string>
+    <string name="location_will_be_shown_here">המיקום יוצג כאן</string>
+    <string name="get_location">קבל מיקום</string>
+    <string name="play_audio">הפעל אודיו</string>
+    <string name="stop_audio">עצור אודיו</string>
+    <string name="title_location_item_fragment">מיקום משתמש</string>
+    <string name="title_media_item_fragment">כְּלֵי תִקְשׁוֹרֶת</string>
+    <string name="location">מקום</string>
+    <string name="media">כְּלֵי תִקְשׁוֹרֶת</string>
+    <string name="choose_an_option">בחר אפשרות</string>
+    <string name="latitude">קו רוחב:</string>
+    <string name="longitude">קו אורך:</string>
+    <string-array name="choose_options">
+        <item>מַצלֵמָה</item>
+        <item>גלריה</item>
+    </string-array>
+</resources>

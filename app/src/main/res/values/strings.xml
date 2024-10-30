@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Movie Pedia</string>
+    <string name="add_fab">add fab</string>
+    <string name="title_add_item_fragment">Add Movie Item</string>
+    <string name="title_edit_item_fragment">Edit Movie Item</string>
+    <string name="title_item_detail_fragment">Movie Item Detail</string>
+    <string name="title_favourite_item_fragment">Favourite Movie Items</string>
+    <string name="delete_movie_title_heading">Delete Movie</string>
+    <string name="delete_movie_warning_message">Are you sure you want to delete this movie?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="add_new_movie_item">Add New Movie Item</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="genre">Genre</string>
+    <string name="release_date">Release Date</string>
+    <string name="rating">Rating</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="empty_input_warning_message">Please fill out all fields</string>
+    <string name="added_movie_message">New Movie Item Added Successfully</string>
+    <string name="updated_movie_message">Movie Item Updated Successfully</string>
+    <string name="favourite_added_message">Item added into Favourite</string>
+    <string name="favourite_removed_message">Item removed from Favourite</string>
+    <string name="favourite">Favourites</string>
+    <string name="item_deleted_message">Movie Item Deleted Successfully</string>
+    <string name="upload_movie_image_text">Upload Movie Image</string>
+    <string name="permission_alert_message">Permission Alert!</string>
+    <string name="camera_permission_denied_message">Go to settings and enable camera permission to use this feature</string>
+    <string name="location_permission_denied_message">Go to settings and enable Location permission to use this feature</string>
+    <string name="setting">Setting</string>
+    <string name="cancel">Cancel</string>
+    <string name="location_will_be_shown_here">Location will be shown here</string>
+    <string name="get_location">Get Location</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="stop_audio">Stop Audio</string>
+    <string name="title_location_item_fragment">User Location</string>
+    <string name="title_media_item_fragment">Media</string>
+    <string name="location">Location</string>
+    <string name="media">Media</string>
+    <string name="choose_an_option">Choose an option</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+
+    <string-array name="choose_options">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+
+</resources>

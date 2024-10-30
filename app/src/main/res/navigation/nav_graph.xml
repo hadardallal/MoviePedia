@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/itemsFragment">
+
+    <fragment
+        android:id="@+id/itemsFragment"
+        android:name="com.moviepedia.app.view.ItemsListFragment"
+        tools:layout="@layout/fragment_items_list">
+        <action
+            android:id="@+id/action_itemsFragment_to_addItemFragment"
+            app:destination="@id/addItemFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+        <action
+            android:id="@+id/action_itemsFragment_to_editItemFragment"
+            app:destination="@id/editItemFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+        <action
+            android:id="@+id/action_itemsFragment_to_itemDetailFragment"
+            app:destination="@id/itemDetailFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/addItemFragment"
+        android:name="com.moviepedia.app.view.AddItemFragment"
+        tools:layout="@layout/fragment_add_item" />
+
+    <fragment
+        android:id="@+id/editItemFragment"
+        android:name="com.moviepedia.app.view.EditItemFragment"
+        tools:layout="@layout/fragment_edit_item" />
+
+    <fragment
+        android:id="@+id/itemDetailFragment"
+        android:name="com.moviepedia.app.view.ItemDetailFragment"
+        tools:layout="@layout/fragment_item_detail" />
+
+    <fragment
+        android:id="@+id/itemLocationFragment"
+        android:name="com.moviepedia.app.view.LocationFragment"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/itemMediaFragment"
+        android:name="com.moviepedia.app.view.MediaFragment"
+        tools:layout="@layout/fragment_media" />
+
+    <fragment
+        android:id="@+id/favouriteItemFragment"
+        android:name="com.moviepedia.app.view.FavouriteItemFragment"
+        tools:layout="@layout/fragment_favourite_item">
+        <action
+            android:id="@+id/action_favouriteItem_to_editItemFragment"
+            app:destination="@id/editItemFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+        <action
+            android:id="@+id/action_favouriteItem_to_itemDetailFragment"
+            app:destination="@id/itemDetailFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_itemsFragment_to_favouriteItemFragment"
+        app:destination="@id/favouriteItemFragment"
+        app:enterAnim="@anim/enter"
+        app:exitAnim="@anim/exit"
+        app:popEnterAnim="@anim/pop_enter"
+        app:popExitAnim="@anim/pop_exit" />
+    <action
+        android:id="@+id/action_itemsFragment_to_locationItemFragment"
+        app:destination="@id/itemLocationFragment"
+        app:enterAnim="@anim/enter"
+        app:exitAnim="@anim/exit"
+        app:popEnterAnim="@anim/pop_enter"
+        app:popExitAnim="@anim/pop_exit" />
+    <action
+        android:id="@+id/action_itemsFragment_to_mediaItemFragment"
+        app:destination="@id/itemMediaFragment"
+        app:enterAnim="@anim/enter"
+        app:exitAnim="@anim/exit"
+        app:popEnterAnim="@anim/pop_enter"
+        app:popExitAnim="@anim/pop_exit" />
+
+</navigation>
